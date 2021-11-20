@@ -1,3 +1,35 @@
+html {
+	box-shadow: border-box;
+	line-height: 1.4;
+	background: #CCB651;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body{
+	max-width: 35 rem;
+	font-size: 2rem;
+	front-family:sans-serif;
+	margin: 0 auto;
+	padding: 2rem 0 4rem;
+}
+img {
+	max-width: 100%;
+}
+.naviagation ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+}
+.naviagation li {
+	margin-right: 1rem;
+}
 .cool-background {
+	color: #CCB651;
+	padding: 1rem;
+	text-align: center;
 	background-image: url("./images/hanoi.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
